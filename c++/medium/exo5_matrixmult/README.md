@@ -15,3 +15,9 @@ Exemple de lancement :
 ```
 
 Quelle est la complexité de votre algorithme ? Les temps mesurés sont-ils cohérents avec cette complexité ?
+
+- O(N^3)
+- Oui (Plus ou moins)
+    - 500 x 500 : 1360542 microseconds (soit 1,36 secondes)
+    - 1000 x 1000 : 5399278 microseconds (soit 5,4 secondes)
+    - 2000 x 2000 : 82666046 microseconds (soit 82,66 secondes)

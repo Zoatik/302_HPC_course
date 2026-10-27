@@ -1,0 +1,4 @@
+Execution time (endl): 581891 microseconds
+Number chosen : 67
+Execution time (\n): 5053 microseconds
+Number chosen : 67

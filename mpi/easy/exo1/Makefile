@@ -1,4 +1,7 @@
-all: para
+all: run
+
+run: para
+	sbatch exo1_job.sh
 
 para:
 	mpic++ main.cpp -o run

@@ -19,3 +19,5 @@ Processor 5 - Hello World
 ## Question
 
 Lancez votre programme plusieurs fois. Est-ce que **MPI_Barrier** permet dans tous les cas d’afficher les messages dans l’ordre ? Pourquoi ?
+
+- Non, l'ordre n'est pas garanti. MPI_Barrier ne fait que synchroniser les processus jusqu'à ce point. L'ordre des opérations après la barrière n'est pas déterminé par MPI_Barrier.
